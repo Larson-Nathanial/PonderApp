@@ -32,7 +32,7 @@
 - (instancetype)initPrivate
 {
     self = [super init];
-    _verification = @"iefMksUIuchfu2834y823e9hskdfj283r9jhs3dlOIjrhqSDFA4faufDFAfhosdfho48Fdh2j3kfDAGueiwlF32kdjf2";
+    _verification = @"a secure string....";
     return self;
 }
 
