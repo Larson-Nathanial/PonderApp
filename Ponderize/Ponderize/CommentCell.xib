@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="UtS-th-Iv7" customClass="CommentCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UtS-th-Iv7" id="5Xp-ei-RxI">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agn-36-Wdy">
+                        <rect key="frame" x="8" y="8" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="nGe-kE-DBX"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="AvenirNext-Regular"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmu-Ya-1ad">
+                        <rect key="frame" x="8" y="37" width="304" height="21"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="agn-36-Wdy" firstAttribute="top" secondItem="5Xp-ei-RxI" secondAttribute="topMargin" id="2uc-yc-aST"/>
+                    <constraint firstItem="Nmu-Ya-1ad" firstAttribute="top" secondItem="agn-36-Wdy" secondAttribute="bottom" constant="8" id="QT7-f8-xqc"/>
+                    <constraint firstItem="Nmu-Ya-1ad" firstAttribute="leading" secondItem="5Xp-ei-RxI" secondAttribute="leadingMargin" id="fYI-xR-aVY"/>
+                    <constraint firstItem="agn-36-Wdy" firstAttribute="leading" secondItem="5Xp-ei-RxI" secondAttribute="leadingMargin" id="gvo-Vd-20f"/>
+                    <constraint firstItem="agn-36-Wdy" firstAttribute="trailing" secondItem="5Xp-ei-RxI" secondAttribute="trailingMargin" id="iUu-Bf-doM"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Nmu-Ya-1ad" secondAttribute="bottom" constant="1.5" id="ijh-vF-q7z"/>
+                    <constraint firstItem="Nmu-Ya-1ad" firstAttribute="trailing" secondItem="5Xp-ei-RxI" secondAttribute="trailingMargin" id="lJk-Dq-UrG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentText" destination="Nmu-Ya-1ad" id="7EL-Hw-qbo"/>
+                <outlet property="commentUserName" destination="agn-36-Wdy" id="X9D-SM-HmR"/>
+            </connections>
+            <point key="canvasLocation" x="280" y="279"/>
+        </tableViewCell>
+    </objects>
+</document>

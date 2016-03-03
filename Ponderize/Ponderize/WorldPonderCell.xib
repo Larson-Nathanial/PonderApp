@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="9oI-Ex-hz5" customClass="WorldPonderCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="270"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9oI-Ex-hz5" id="F7f-eh-BSj">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="269.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaP-Zy-Zjd">
+                        <rect key="frame" x="8" y="8" width="304" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="yGV-Eh-8Ng"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Nathan">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                    <font key="NSOriginalFont" size="18" name="AvenirNext-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJv-xw-Ohg">
+                        <rect key="frame" x="8" y="32" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="5L4-32-wvO"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="July 3, 2015 @ 4:35 PM">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="11" name="AvenirNext-UltraLight"/>
+                                    <font key="NSOriginalFont" size="11" name="AvenirNext-UltraLight"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="em2-CA-v6g">
+                        <rect key="frame" x="8" y="61" width="304" height="98"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="98" id="Xx8-2n-XTg"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Another good day for ">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                    <real key="NSKern" value="0.0"/>
+                                    <font key="NSOriginalFont" size="14" name="AvenirNext-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36">
+                                        <tabStops/>
+                                    </paragraphStyle>
+                                    <color key="NSStrokeColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="Sean">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                    <real key="NSKern" value="0.0"/>
+                                    <url key="NSLink" string="https://www.facebook.com/sean.mcclintock.35"/>
+                                    <font key="NSOriginalFont" size="14" name="AvenirNext-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36">
+                                        <tabStops/>
+                                    </paragraphStyle>
+                                    <color key="NSStrokeColor" red="0.17647058823529413" green="0.26666666666666666" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                                </attributes>
+                            </fragment>
+                            <fragment>
+                                <string key="content">, he was off the ventilator for 5 1/2 hours and was sitting up for a while. The hard parts is he doesn't understand why he can't have a</string>
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                    <real key="NSKern" value="0.0"/>
+                                    <font key="NSOriginalFont" size="14" name="AvenirNext-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36">
+                                        <tabStops/>
+                                    </paragraphStyle>
+                                    <color key="NSStrokeColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=" lot of food at this pointing time">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                    <real key="NSKern" value="0.0"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36">
+                                        <tabStops/>
+                                    </paragraphStyle>
+                                    <color key="NSStrokeColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24T-K0-dNS">
+                        <rect key="frame" x="160" y="188" width="152" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="152" id="k09-Ns-yN1"/>
+                            <constraint firstAttribute="height" constant="25" id="nTa-XF-tfK"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="4,543 comments">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="AvenirNext-UltraLight"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uCL-du-Hbo">
+                        <rect key="frame" x="0.0" y="225" width="160" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="4w8-0w-t2u"/>
+                        </constraints>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="Like">
+                                    <attributes>
+                                        <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                        <connections>
+                            <action selector="likeButton:" destination="9oI-Ex-hz5" eventType="touchUpInside" id="H9C-C5-Wr5"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfK-z1-dsc">
+                        <rect key="frame" x="0.0" y="225" width="160" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="YGA-Yw-MjR"/>
+                        </constraints>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="Liked">
+                                    <attributes>
+                                        <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="95v-9X-x8R">
+                        <rect key="frame" x="160" y="225" width="160" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="8gO-7J-HlH"/>
+                        </constraints>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="Comment">
+                                    <attributes>
+                                        <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                        <connections>
+                            <action selector="commentButton:" destination="9oI-Ex-hz5" eventType="touchUpInside" id="mdG-y5-Nab"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZsT-YL-AdS">
+                        <rect key="frame" x="8" y="216" width="304" height="1"/>
+                        <color key="backgroundColor" red="0.49548216545050505" green="0.49548216545050505" blue="0.49548216545050505" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="cG5-qk-Lk6"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HIS-8m-Nfq">
+                        <rect key="frame" x="239" y="150" width="73" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="73" id="3Np-ao-J8i"/>
+                            <constraint firstAttribute="height" constant="30" id="uT8-sy-ewU"/>
+                        </constraints>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="View More">
+                                    <attributes>
+                                        <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                        <connections>
+                            <action selector="viewMoreAction:" destination="9oI-Ex-hz5" eventType="touchUpInside" id="exM-3s-6l4"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lV-ZY-906">
+                        <rect key="frame" x="8" y="188" width="152" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="152" id="NKn-bQ-3p5"/>
+                            <constraint firstAttribute="height" constant="25" id="fE0-ey-pQd"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="1,453 likes">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="AvenirNext-UltraLight"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="uCL-du-Hbo" secondAttribute="bottom" constant="-7" id="7xC-gS-PUs"/>
+                    <constraint firstItem="24T-K0-dNS" firstAttribute="top" secondItem="HIS-8m-Nfq" secondAttribute="bottom" constant="8" id="95n-kA-Ykg"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="95v-9X-x8R" secondAttribute="trailing" constant="-8" id="HTG-a9-bYE"/>
+                    <constraint firstItem="ZsT-YL-AdS" firstAttribute="top" secondItem="5lV-ZY-906" secondAttribute="bottom" constant="3" id="Hj7-xP-0j6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="95v-9X-x8R" secondAttribute="bottom" constant="-7" id="O1Z-IP-3af"/>
+                    <constraint firstItem="24T-K0-dNS" firstAttribute="trailing" secondItem="F7f-eh-BSj" secondAttribute="trailingMargin" id="PiT-D0-hhQ"/>
+                    <constraint firstItem="95v-9X-x8R" firstAttribute="leading" secondItem="uCL-du-Hbo" secondAttribute="trailing" id="Rng-ri-nCj"/>
+                    <constraint firstItem="95v-9X-x8R" firstAttribute="top" secondItem="ZsT-YL-AdS" secondAttribute="bottom" constant="8" id="UF2-TP-u7x"/>
+                    <constraint firstItem="ZsT-YL-AdS" firstAttribute="trailing" secondItem="F7f-eh-BSj" secondAttribute="trailingMargin" id="UHp-J0-wds"/>
+                    <constraint firstItem="uCL-du-Hbo" firstAttribute="leading" secondItem="F7f-eh-BSj" secondAttribute="leadingMargin" constant="-8" id="WGj-tj-bwn"/>
+                    <constraint firstItem="dJv-xw-Ohg" firstAttribute="trailing" secondItem="F7f-eh-BSj" secondAttribute="trailingMargin" id="XXm-zn-drB"/>
+                    <constraint firstItem="HIS-8m-Nfq" firstAttribute="trailing" secondItem="F7f-eh-BSj" secondAttribute="trailingMargin" id="Xal-f0-JHt"/>
+                    <constraint firstItem="dJv-xw-Ohg" firstAttribute="leading" secondItem="F7f-eh-BSj" secondAttribute="leadingMargin" id="aTT-S4-thD"/>
+                    <constraint firstItem="95v-9X-x8R" firstAttribute="width" secondItem="uCL-du-Hbo" secondAttribute="width" id="akh-Uf-93h"/>
+                    <constraint firstItem="em2-CA-v6g" firstAttribute="trailing" secondItem="F7f-eh-BSj" secondAttribute="trailingMargin" id="cUd-6e-xMQ"/>
+                    <constraint firstItem="ZsT-YL-AdS" firstAttribute="leading" secondItem="F7f-eh-BSj" secondAttribute="leadingMargin" id="gBi-DT-OGy"/>
+                    <constraint firstItem="5lV-ZY-906" firstAttribute="leading" secondItem="F7f-eh-BSj" secondAttribute="leadingMargin" id="iYW-E0-hDZ"/>
+                    <constraint firstItem="ZsT-YL-AdS" firstAttribute="top" secondItem="24T-K0-dNS" secondAttribute="bottom" constant="3" id="lb2-5N-6PA"/>
+                    <constraint firstItem="UaP-Zy-Zjd" firstAttribute="trailing" secondItem="F7f-eh-BSj" secondAttribute="trailingMargin" id="rt7-wI-5yD"/>
+                    <constraint firstItem="24T-K0-dNS" firstAttribute="top" secondItem="em2-CA-v6g" secondAttribute="bottom" constant="29" id="sMa-5s-QfU"/>
+                    <constraint firstItem="UaP-Zy-Zjd" firstAttribute="leading" secondItem="F7f-eh-BSj" secondAttribute="leadingMargin" id="tVf-Ci-jDO"/>
+                    <constraint firstItem="95v-9X-x8R" firstAttribute="height" secondItem="uCL-du-Hbo" secondAttribute="height" id="wgr-Eq-Ghh"/>
+                    <constraint firstItem="em2-CA-v6g" firstAttribute="leading" secondItem="F7f-eh-BSj" secondAttribute="leadingMargin" id="xSo-2z-0AE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentsOutlet" destination="24T-K0-dNS" id="09U-vf-VAS"/>
+                <outlet property="likeButtonOutlet" destination="uCL-du-Hbo" id="n2O-ok-gS3"/>
+                <outlet property="likedButtonOutlet" destination="bfK-z1-dsc" id="HuU-RB-scz"/>
+                <outlet property="likesText" destination="5lV-ZY-906" id="cd5-lc-GJ9"/>
+                <outlet property="postDate" destination="dJv-xw-Ohg" id="ykI-E9-ZCp"/>
+                <outlet property="postName" destination="UaP-Zy-Zjd" id="fS3-Pa-rnJ"/>
+                <outlet property="postText" destination="em2-CA-v6g" id="Stg-A3-N4N"/>
+                <outlet property="viewMoreOutlet" destination="HIS-8m-Nfq" id="rib-eS-oNP"/>
+            </connections>
+            <point key="canvasLocation" x="478" y="387"/>
+        </tableViewCell>
+    </objects>
+</document>

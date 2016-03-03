@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="121" id="0WT-Lh-CLn" customClass="ChapterCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="121"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0WT-Lh-CLn" id="6VM-3e-i79">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKG-zZ-ERE">
+                        <rect key="frame" x="8" y="8" width="276" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="VQK-te-Dxu"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Chapter 23">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qD0-MS-uiU">
+                        <rect key="frame" x="18" y="37" width="266" height="71"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="71" id="38L-Is-wi2"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Chapter 23">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-Italic"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cKG-zZ-ERE" firstAttribute="leading" secondItem="6VM-3e-i79" secondAttribute="leadingMargin" id="0Gb-bY-UeQ"/>
+                    <constraint firstItem="qD0-MS-uiU" firstAttribute="leading" secondItem="6VM-3e-i79" secondAttribute="leadingMargin" constant="10" id="24k-Cf-Kr3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qD0-MS-uiU" secondAttribute="trailing" constant="-5" id="E5I-Yp-ilB"/>
+                    <constraint firstItem="qD0-MS-uiU" firstAttribute="top" secondItem="cKG-zZ-ERE" secondAttribute="bottom" constant="8" id="YeW-N2-FgE"/>
+                    <constraint firstItem="cKG-zZ-ERE" firstAttribute="top" secondItem="6VM-3e-i79" secondAttribute="topMargin" id="bSv-c4-3hT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cKG-zZ-ERE" secondAttribute="trailing" constant="-5" id="rSj-Ul-aNE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="chapter" destination="cKG-zZ-ERE" id="DTf-Oj-ugK"/>
+                <outlet property="studyHelp" destination="qD0-MS-uiU" id="ama-Yh-tpz"/>
+            </connections>
+            <point key="canvasLocation" x="453" y="281.5"/>
+        </tableViewCell>
+    </objects>
+</document>

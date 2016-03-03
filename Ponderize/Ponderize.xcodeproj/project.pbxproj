@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7C0300B1BC309D3009A9468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0300A1BC309D3009A9468 /* main.m */; };
+		F7C0300E1BC309D3009A9468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0300D1BC309D3009A9468 /* AppDelegate.m */; };
+		F7C030171BC309D3009A9468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C030151BC309D3009A9468 /* Main.storyboard */; };
+		F7C030191BC309D3009A9468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C030181BC309D3009A9468 /* Assets.xcassets */; };
+		F7C0301C1BC309D3009A9468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C0301A1BC309D3009A9468 /* LaunchScreen.storyboard */; };
+		F7C030271BC309D3009A9468 /* PonderizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030261BC309D3009A9468 /* PonderizeTests.m */; };
+		F7C030321BC309D3009A9468 /* PonderizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030311BC309D3009A9468 /* PonderizeUITests.m */; };
+		F7C030431BC30F96009A9468 /* WorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030421BC30F96009A9468 /* WorldViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030461BC30FA3009A9468 /* PonderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030451BC30FA3009A9468 /* PonderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030491BC30FAB009A9468 /* GroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030481BC30FAB009A9468 /* GroupsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C0304C1BC30FBA009A9468 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0304B1BC30FBA009A9468 /* SettingsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030541BC3100C009A9468 /* WorldPonderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030531BC3100C009A9468 /* WorldPonderCell.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030581BC31094009A9468 /* WorldPonderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C030571BC31094009A9468 /* WorldPonderCell.xib */; settings = {ASSET_TAGS = (); }; };
+		F7C0305B1BC342B0009A9468 /* GroupMemebersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0305A1BC342B0009A9468 /* GroupMemebersViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C0305E1BC36E02009A9468 /* AddPonder.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0305D1BC36E02009A9468 /* AddPonder.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030601BC373AB009A9468 /* AddPonder.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C0305F1BC373AB009A9468 /* AddPonder.xib */; settings = {ASSET_TAGS = (); }; };
+		F7C030641BC375D4009A9468 /* ChooseBook.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030631BC375D4009A9468 /* ChooseBook.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030671BC375DE009A9468 /* ChooseBookTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030661BC375DE009A9468 /* ChooseBookTwo.m */; settings = {ASSET_TAGS = (); }; };
+		F7C0306A1BC375E8009A9468 /* ChooseChapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030691BC375E8009A9468 /* ChooseChapter.m */; settings = {ASSET_TAGS = (); }; };
+		F7C0306D1BC375F7009A9468 /* ChooseVerses.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0306C1BC375F7009A9468 /* ChooseVerses.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030701BC42BF6009A9468 /* GetScriptureClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0306F1BC42BF6009A9468 /* GetScriptureClass.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030741BC436D2009A9468 /* ChapterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030731BC436D2009A9468 /* ChapterCell.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030761BC436DB009A9468 /* ChapterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C030751BC436DB009A9468 /* ChapterCell.xib */; settings = {ASSET_TAGS = (); }; };
+		F7C030791BC45347009A9468 /* VerseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C030781BC45347009A9468 /* VerseCell.xib */; settings = {ASSET_TAGS = (); }; };
+		F7C0307C1BC45350009A9468 /* VerseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0307B1BC45350009A9468 /* VerseCell.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030821BC56779009A9468 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030811BC56779009A9468 /* Connection.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030851BC58633009A9468 /* PostVisibilityOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030841BC58633009A9468 /* PostVisibilityOptionsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030881BC59D6B009A9468 /* MyScriptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030871BC59D6B009A9468 /* MyScriptureViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C0308A1BC59D84009A9468 /* MyScriptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C030891BC59D84009A9468 /* MyScriptureViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		F7C0308D1BC5AAF0009A9468 /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0308C1BC5AAF0009A9468 /* CommentsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030901BC5AB04009A9468 /* WriteCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0308F1BC5AB04009A9468 /* WriteCommentViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030921BC5AB14009A9468 /* WriteCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C030911BC5AB14009A9468 /* WriteCommentViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		F7C030961BC5DAD3009A9468 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030951BC5DAD3009A9468 /* CommentCell.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030981BC5DADC009A9468 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C030971BC5DADC009A9468 /* CommentCell.xib */; settings = {ASSET_TAGS = (); }; };
+		F7C0309B1BC6CFC6009A9468 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0309A1BC6CFC6009A9468 /* SignInViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F7C0309D1BC6CFD3009A9468 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C0309C1BC6CFD3009A9468 /* SignInViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		F7C030A01BC700DB009A9468 /* TempGetAllScriptures.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0309F1BC700DB009A9468 /* TempGetAllScriptures.m */; settings = {ASSET_TAGS = (); }; };
+		F7C030E21BC958A7009A9468 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C030E11BC958A7009A9468 /* FeedbackViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7C030231BC309D3009A9468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7C02FFE1BC309D3009A9468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C030051BC309D3009A9468;
+			remoteInfo = Ponderize;
+		};
+		F7C0302E1BC309D3009A9468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7C02FFE1BC309D3009A9468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C030051BC309D3009A9468;
+			remoteInfo = Ponderize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7C030061BC309D3009A9468 /* Ponderize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ponderize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C0300A1BC309D3009A9468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7C0300C1BC309D3009A9468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7C0300D1BC309D3009A9468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7C030161BC309D3009A9468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7C030181BC309D3009A9468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7C0301B1BC309D3009A9468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7C0301D1BC309D3009A9468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C030221BC309D3009A9468 /* PonderizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonderizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C030261BC309D3009A9468 /* PonderizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PonderizeTests.m; sourceTree = "<group>"; };
+		F7C030281BC309D3009A9468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C0302D1BC309D3009A9468 /* PonderizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonderizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C030311BC309D3009A9468 /* PonderizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PonderizeUITests.m; sourceTree = "<group>"; };
+		F7C030331BC309D3009A9468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C030411BC30F96009A9468 /* WorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldViewController.h; sourceTree = "<group>"; };
+		F7C030421BC30F96009A9468 /* WorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldViewController.m; sourceTree = "<group>"; };
+		F7C030441BC30FA3009A9468 /* PonderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PonderViewController.h; sourceTree = "<group>"; };
+		F7C030451BC30FA3009A9468 /* PonderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PonderViewController.m; sourceTree = "<group>"; };
+		F7C030471BC30FAB009A9468 /* GroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsViewController.h; sourceTree = "<group>"; };
+		F7C030481BC30FAB009A9468 /* GroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsViewController.m; sourceTree = "<group>"; };
+		F7C0304A1BC30FBA009A9468 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F7C0304B1BC30FBA009A9468 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F7C030521BC3100C009A9468 /* WorldPonderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldPonderCell.h; sourceTree = "<group>"; };
+		F7C030531BC3100C009A9468 /* WorldPonderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldPonderCell.m; sourceTree = "<group>"; };
+		F7C030571BC31094009A9468 /* WorldPonderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorldPonderCell.xib; sourceTree = "<group>"; };
+		F7C030591BC342B0009A9468 /* GroupMemebersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupMemebersViewController.h; sourceTree = "<group>"; };
+		F7C0305A1BC342B0009A9468 /* GroupMemebersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupMemebersViewController.m; sourceTree = "<group>"; };
+		F7C0305C1BC36E02009A9468 /* AddPonder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPonder.h; sourceTree = "<group>"; };
+		F7C0305D1BC36E02009A9468 /* AddPonder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPonder.m; sourceTree = "<group>"; };
+		F7C0305F1BC373AB009A9468 /* AddPonder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPonder.xib; sourceTree = "<group>"; };
+		F7C030621BC375D4009A9468 /* ChooseBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBook.h; sourceTree = "<group>"; };
+		F7C030631BC375D4009A9468 /* ChooseBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseBook.m; sourceTree = "<group>"; };
+		F7C030651BC375DE009A9468 /* ChooseBookTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBookTwo.h; sourceTree = "<group>"; };
+		F7C030661BC375DE009A9468 /* ChooseBookTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseBookTwo.m; sourceTree = "<group>"; };
+		F7C030681BC375E8009A9468 /* ChooseChapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseChapter.h; sourceTree = "<group>"; };
+		F7C030691BC375E8009A9468 /* ChooseChapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseChapter.m; sourceTree = "<group>"; };
+		F7C0306B1BC375F7009A9468 /* ChooseVerses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseVerses.h; sourceTree = "<group>"; };
+		F7C0306C1BC375F7009A9468 /* ChooseVerses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseVerses.m; sourceTree = "<group>"; };
+		F7C0306E1BC42BF6009A9468 /* GetScriptureClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetScriptureClass.h; sourceTree = "<group>"; };
+		F7C0306F1BC42BF6009A9468 /* GetScriptureClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetScriptureClass.m; sourceTree = "<group>"; };
+		F7C030721BC436D2009A9468 /* ChapterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterCell.h; sourceTree = "<group>"; };
+		F7C030731BC436D2009A9468 /* ChapterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterCell.m; sourceTree = "<group>"; };
+		F7C030751BC436DB009A9468 /* ChapterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterCell.xib; sourceTree = "<group>"; };
+		F7C030781BC45347009A9468 /* VerseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerseCell.xib; sourceTree = "<group>"; };
+		F7C0307A1BC45350009A9468 /* VerseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerseCell.h; sourceTree = "<group>"; };
+		F7C0307B1BC45350009A9468 /* VerseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerseCell.m; sourceTree = "<group>"; };
+		F7C030801BC56779009A9468 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		F7C030811BC56779009A9468 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		F7C030831BC58633009A9468 /* PostVisibilityOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostVisibilityOptionsViewController.h; sourceTree = "<group>"; };
+		F7C030841BC58633009A9468 /* PostVisibilityOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostVisibilityOptionsViewController.m; sourceTree = "<group>"; };
+		F7C030861BC59D6B009A9468 /* MyScriptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScriptureViewController.h; sourceTree = "<group>"; };
+		F7C030871BC59D6B009A9468 /* MyScriptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScriptureViewController.m; sourceTree = "<group>"; };
+		F7C030891BC59D84009A9468 /* MyScriptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyScriptureViewController.xib; sourceTree = "<group>"; };
+		F7C0308B1BC5AAF0009A9468 /* CommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
+		F7C0308C1BC5AAF0009A9468 /* CommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
+		F7C0308E1BC5AB04009A9468 /* WriteCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteCommentViewController.h; sourceTree = "<group>"; };
+		F7C0308F1BC5AB04009A9468 /* WriteCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteCommentViewController.m; sourceTree = "<group>"; };
+		F7C030911BC5AB14009A9468 /* WriteCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WriteCommentViewController.xib; sourceTree = "<group>"; };
+		F7C030941BC5DAD3009A9468 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		F7C030951BC5DAD3009A9468 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		F7C030971BC5DADC009A9468 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		F7C030991BC6CFC6009A9468 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		F7C0309A1BC6CFC6009A9468 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		F7C0309C1BC6CFD3009A9468 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		F7C0309E1BC700DB009A9468 /* TempGetAllScriptures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempGetAllScriptures.h; sourceTree = "<group>"; };
+		F7C0309F1BC700DB009A9468 /* TempGetAllScriptures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempGetAllScriptures.m; sourceTree = "<group>"; };
+		F7C030E01BC958A7009A9468 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		F7C030E11BC958A7009A9468 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7C030031BC309D3009A9468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C0301F1BC309D3009A9468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C0302A1BC309D3009A9468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7C02FFD1BC309D3009A9468 = {
+			isa = PBXGroup;
+			children = (
+				F7C030081BC309D3009A9468 /* Ponderize */,
+				F7C030251BC309D3009A9468 /* PonderizeTests */,
+				F7C030301BC309D3009A9468 /* PonderizeUITests */,
+				F7C030071BC309D3009A9468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7C030071BC309D3009A9468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7C030061BC309D3009A9468 /* Ponderize.app */,
+				F7C030221BC309D3009A9468 /* PonderizeTests.xctest */,
+				F7C0302D1BC309D3009A9468 /* PonderizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C030081BC309D3009A9468 /* Ponderize */ = {
+			isa = PBXGroup;
+			children = (
+				F7C0300C1BC309D3009A9468 /* AppDelegate.h */,
+				F7C0300D1BC309D3009A9468 /* AppDelegate.m */,
+				F7C030861BC59D6B009A9468 /* MyScriptureViewController.h */,
+				F7C030871BC59D6B009A9468 /* MyScriptureViewController.m */,
+				F7C030891BC59D84009A9468 /* MyScriptureViewController.xib */,
+				F7C030991BC6CFC6009A9468 /* SignInViewController.h */,
+				F7C0309A1BC6CFC6009A9468 /* SignInViewController.m */,
+				F7C0309C1BC6CFD3009A9468 /* SignInViewController.xib */,
+				F7C030801BC56779009A9468 /* Connection.h */,
+				F7C030811BC56779009A9468 /* Connection.m */,
+				F7C030401BC30F7C009A9468 /* AppViewControllers */,
+				F7C0303F1BC30F72009A9468 /* InitialViewsOnly */,
+				F7C030151BC309D3009A9468 /* Main.storyboard */,
+				F7C030181BC309D3009A9468 /* Assets.xcassets */,
+				F7C0301A1BC309D3009A9468 /* LaunchScreen.storyboard */,
+				F7C0301D1BC309D3009A9468 /* Info.plist */,
+				F7C030091BC309D3009A9468 /* Supporting Files */,
+			);
+			path = Ponderize;
+			sourceTree = "<group>";
+		};
+		F7C030091BC309D3009A9468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7C0300A1BC309D3009A9468 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7C030251BC309D3009A9468 /* PonderizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7C030261BC309D3009A9468 /* PonderizeTests.m */,
+				F7C030281BC309D3009A9468 /* Info.plist */,
+			);
+			path = PonderizeTests;
+			sourceTree = "<group>";
+		};
+		F7C030301BC309D3009A9468 /* PonderizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7C030311BC309D3009A9468 /* PonderizeUITests.m */,
+				F7C030331BC309D3009A9468 /* Info.plist */,
+			);
+			path = PonderizeUITests;
+			sourceTree = "<group>";
+		};
+		F7C0303F1BC30F72009A9468 /* InitialViewsOnly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = InitialViewsOnly;
+			sourceTree = "<group>";
+		};
+		F7C030401BC30F7C009A9468 /* AppViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7C030411BC30F96009A9468 /* WorldViewController.h */,
+				F7C030421BC30F96009A9468 /* WorldViewController.m */,
+				F7C030441BC30FA3009A9468 /* PonderViewController.h */,
+				F7C030451BC30FA3009A9468 /* PonderViewController.m */,
+				F7C0305C1BC36E02009A9468 /* AddPonder.h */,
+				F7C0305D1BC36E02009A9468 /* AddPonder.m */,
+				F7C0305F1BC373AB009A9468 /* AddPonder.xib */,
+				F7C030831BC58633009A9468 /* PostVisibilityOptionsViewController.h */,
+				F7C030841BC58633009A9468 /* PostVisibilityOptionsViewController.m */,
+				F7C0308B1BC5AAF0009A9468 /* CommentsViewController.h */,
+				F7C0308C1BC5AAF0009A9468 /* CommentsViewController.m */,
+				F7C030931BC5DABF009A9468 /* Comment Cells */,
+				F7C0308E1BC5AB04009A9468 /* WriteCommentViewController.h */,
+				F7C0308F1BC5AB04009A9468 /* WriteCommentViewController.m */,
+				F7C030911BC5AB14009A9468 /* WriteCommentViewController.xib */,
+				F7C030611BC3755A009A9468 /* Select Scripture Views */,
+				F7C0304D1BC30FF1009A9468 /* WorldPonderCells */,
+				F7C030471BC30FAB009A9468 /* GroupsViewController.h */,
+				F7C030481BC30FAB009A9468 /* GroupsViewController.m */,
+				F7C030591BC342B0009A9468 /* GroupMemebersViewController.h */,
+				F7C0305A1BC342B0009A9468 /* GroupMemebersViewController.m */,
+				F7C0304A1BC30FBA009A9468 /* SettingsViewController.h */,
+				F7C0304B1BC30FBA009A9468 /* SettingsViewController.m */,
+				F7C030E01BC958A7009A9468 /* FeedbackViewController.h */,
+				F7C030E11BC958A7009A9468 /* FeedbackViewController.m */,
+			);
+			name = AppViewControllers;
+			sourceTree = "<group>";
+		};
+		F7C0304D1BC30FF1009A9468 /* WorldPonderCells */ = {
+			isa = PBXGroup;
+			children = (
+				F7C030521BC3100C009A9468 /* WorldPonderCell.h */,
+				F7C030531BC3100C009A9468 /* WorldPonderCell.m */,
+				F7C030571BC31094009A9468 /* WorldPonderCell.xib */,
+			);
+			name = WorldPonderCells;
+			sourceTree = "<group>";
+		};
+		F7C030611BC3755A009A9468 /* Select Scripture Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7C030621BC375D4009A9468 /* ChooseBook.h */,
+				F7C030631BC375D4009A9468 /* ChooseBook.m */,
+				F7C030651BC375DE009A9468 /* ChooseBookTwo.h */,
+				F7C030661BC375DE009A9468 /* ChooseBookTwo.m */,
+				F7C030681BC375E8009A9468 /* ChooseChapter.h */,
+				F7C030691BC375E8009A9468 /* ChooseChapter.m */,
+				F7C030711BC436C8009A9468 /* ChapterCell */,
+				F7C0306B1BC375F7009A9468 /* ChooseVerses.h */,
+				F7C0306C1BC375F7009A9468 /* ChooseVerses.m */,
+				F7C030771BC4533D009A9468 /* VerseCell */,
+				F7C0306E1BC42BF6009A9468 /* GetScriptureClass.h */,
+				F7C0306F1BC42BF6009A9468 /* GetScriptureClass.m */,
+				F7C0309E1BC700DB009A9468 /* TempGetAllScriptures.h */,
+				F7C0309F1BC700DB009A9468 /* TempGetAllScriptures.m */,
+			);
+			name = "Select Scripture Views";
+			sourceTree = "<group>";
+		};
+		F7C030711BC436C8009A9468 /* ChapterCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7C030721BC436D2009A9468 /* ChapterCell.h */,
+				F7C030731BC436D2009A9468 /* ChapterCell.m */,
+				F7C030751BC436DB009A9468 /* ChapterCell.xib */,
+			);
+			name = ChapterCell;
+			sourceTree = "<group>";
+		};
+		F7C030771BC4533D009A9468 /* VerseCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7C0307A1BC45350009A9468 /* VerseCell.h */,
+				F7C0307B1BC45350009A9468 /* VerseCell.m */,
+				F7C030781BC45347009A9468 /* VerseCell.xib */,
+			);
+			name = VerseCell;
+			sourceTree = "<group>";
+		};
+		F7C030931BC5DABF009A9468 /* Comment Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F7C030941BC5DAD3009A9468 /* CommentCell.h */,
+				F7C030951BC5DAD3009A9468 /* CommentCell.m */,
+				F7C030971BC5DADC009A9468 /* CommentCell.xib */,
+			);
+			name = "Comment Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7C030051BC309D3009A9468 /* Ponderize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C030361BC309D3009A9468 /* Build configuration list for PBXNativeTarget "Ponderize" */;
+			buildPhases = (
+				F7C030021BC309D3009A9468 /* Sources */,
+				F7C030031BC309D3009A9468 /* Frameworks */,
+				F7C030041BC309D3009A9468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ponderize;
+			productName = Ponderize;
+			productReference = F7C030061BC309D3009A9468 /* Ponderize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7C030211BC309D3009A9468 /* PonderizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C030391BC309D3009A9468 /* Build configuration list for PBXNativeTarget "PonderizeTests" */;
+			buildPhases = (
+				F7C0301E1BC309D3009A9468 /* Sources */,
+				F7C0301F1BC309D3009A9468 /* Frameworks */,
+				F7C030201BC309D3009A9468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C030241BC309D3009A9468 /* PBXTargetDependency */,
+			);
+			name = PonderizeTests;
+			productName = PonderizeTests;
+			productReference = F7C030221BC309D3009A9468 /* PonderizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7C0302C1BC309D3009A9468 /* PonderizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C0303C1BC309D3009A9468 /* Build configuration list for PBXNativeTarget "PonderizeUITests" */;
+			buildPhases = (
+				F7C030291BC309D3009A9468 /* Sources */,
+				F7C0302A1BC309D3009A9468 /* Frameworks */,
+				F7C0302B1BC309D3009A9468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C0302F1BC309D3009A9468 /* PBXTargetDependency */,
+			);
+			name = PonderizeUITests;
+			productName = PonderizeUITests;
+			productReference = F7C0302D1BC309D3009A9468 /* PonderizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7C02FFE1BC309D3009A9468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = nathanlarson;
+				TargetAttributes = {
+					F7C030051BC309D3009A9468 = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					F7C030211BC309D3009A9468 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F7C030051BC309D3009A9468;
+					};
+					F7C0302C1BC309D3009A9468 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F7C030051BC309D3009A9468;
+					};
+				};
+			};
+			buildConfigurationList = F7C030011BC309D3009A9468 /* Build configuration list for PBXProject "Ponderize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7C02FFD1BC309D3009A9468;
+			productRefGroup = F7C030071BC309D3009A9468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7C030051BC309D3009A9468 /* Ponderize */,
+				F7C030211BC309D3009A9468 /* PonderizeTests */,
+				F7C0302C1BC309D3009A9468 /* PonderizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7C030041BC309D3009A9468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C0301C1BC309D3009A9468 /* LaunchScreen.storyboard in Resources */,
+				F7C030581BC31094009A9468 /* WorldPonderCell.xib in Resources */,
+				F7C030791BC45347009A9468 /* VerseCell.xib in Resources */,
+				F7C030601BC373AB009A9468 /* AddPonder.xib in Resources */,
+				F7C0308A1BC59D84009A9468 /* MyScriptureViewController.xib in Resources */,
+				F7C030981BC5DADC009A9468 /* CommentCell.xib in Resources */,
+				F7C030191BC309D3009A9468 /* Assets.xcassets in Resources */,
+				F7C030921BC5AB14009A9468 /* WriteCommentViewController.xib in Resources */,
+				F7C0309D1BC6CFD3009A9468 /* SignInViewController.xib in Resources */,
+				F7C030171BC309D3009A9468 /* Main.storyboard in Resources */,
+				F7C030761BC436DB009A9468 /* ChapterCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C030201BC309D3009A9468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C0302B1BC309D3009A9468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7C030021BC309D3009A9468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C030461BC30FA3009A9468 /* PonderViewController.m in Sources */,
+				F7C030491BC30FAB009A9468 /* GroupsViewController.m in Sources */,
+				F7C0306A1BC375E8009A9468 /* ChooseChapter.m in Sources */,
+				F7C030671BC375DE009A9468 /* ChooseBookTwo.m in Sources */,
+				F7C0300E1BC309D3009A9468 /* AppDelegate.m in Sources */,
+				F7C0306D1BC375F7009A9468 /* ChooseVerses.m in Sources */,
+				F7C030541BC3100C009A9468 /* WorldPonderCell.m in Sources */,
+				F7C0305B1BC342B0009A9468 /* GroupMemebersViewController.m in Sources */,
+				F7C0308D1BC5AAF0009A9468 /* CommentsViewController.m in Sources */,
+				F7C030641BC375D4009A9468 /* ChooseBook.m in Sources */,
+				F7C030741BC436D2009A9468 /* ChapterCell.m in Sources */,
+				F7C0309B1BC6CFC6009A9468 /* SignInViewController.m in Sources */,
+				F7C030961BC5DAD3009A9468 /* CommentCell.m in Sources */,
+				F7C0305E1BC36E02009A9468 /* AddPonder.m in Sources */,
+				F7C030901BC5AB04009A9468 /* WriteCommentViewController.m in Sources */,
+				F7C0307C1BC45350009A9468 /* VerseCell.m in Sources */,
+				F7C0304C1BC30FBA009A9468 /* SettingsViewController.m in Sources */,
+				F7C030851BC58633009A9468 /* PostVisibilityOptionsViewController.m in Sources */,
+				F7C030701BC42BF6009A9468 /* GetScriptureClass.m in Sources */,
+				F7C030881BC59D6B009A9468 /* MyScriptureViewController.m in Sources */,
+				F7C030A01BC700DB009A9468 /* TempGetAllScriptures.m in Sources */,
+				F7C030821BC56779009A9468 /* Connection.m in Sources */,
+				F7C030E21BC958A7009A9468 /* FeedbackViewController.m in Sources */,
+				F7C0300B1BC309D3009A9468 /* main.m in Sources */,
+				F7C030431BC30F96009A9468 /* WorldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C0301E1BC309D3009A9468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C030271BC309D3009A9468 /* PonderizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C030291BC309D3009A9468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C030321BC309D3009A9468 /* PonderizeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7C030241BC309D3009A9468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7C030051BC309D3009A9468 /* Ponderize */;
+			targetProxy = F7C030231BC309D3009A9468 /* PBXContainerItemProxy */;
+		};
+		F7C0302F1BC309D3009A9468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7C030051BC309D3009A9468 /* Ponderize */;
+			targetProxy = F7C0302E1BC309D3009A9468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7C030151BC309D3009A9468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C030161BC309D3009A9468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7C0301A1BC309D3009A9468 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C0301B1BC309D3009A9468 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7C030341BC309D3009A9468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7C030351BC309D3009A9468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7C030371BC309D3009A9468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ponderize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanlarson.Ponderize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7C030381BC309D3009A9468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ponderize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanlarson.Ponderize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7C0303A1BC309D3009A9468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PonderizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanlarson.PonderizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ponderize.app/Ponderize";
+			};
+			name = Debug;
+		};
+		F7C0303B1BC309D3009A9468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PonderizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanlarson.PonderizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ponderize.app/Ponderize";
+			};
+			name = Release;
+		};
+		F7C0303D1BC309D3009A9468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PonderizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanlarson.PonderizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ponderize;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F7C0303E1BC309D3009A9468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PonderizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanlarson.PonderizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ponderize;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7C030011BC309D3009A9468 /* Build configuration list for PBXProject "Ponderize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C030341BC309D3009A9468 /* Debug */,
+				F7C030351BC309D3009A9468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C030361BC309D3009A9468 /* Build configuration list for PBXNativeTarget "Ponderize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C030371BC309D3009A9468 /* Debug */,
+				F7C030381BC309D3009A9468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7C030391BC309D3009A9468 /* Build configuration list for PBXNativeTarget "PonderizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C0303A1BC309D3009A9468 /* Debug */,
+				F7C0303B1BC309D3009A9468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7C0303C1BC309D3009A9468 /* Build configuration list for PBXNativeTarget "PonderizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C0303D1BC309D3009A9468 /* Debug */,
+				F7C0303E1BC309D3009A9468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7C02FFE1BC309D3009A9468 /* Project object */;
+}

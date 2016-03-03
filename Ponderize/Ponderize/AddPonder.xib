@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddPonder">
+            <connections>
+                <outlet property="selectedScriptureLabel" destination="bK1-mi-J3Y" id="GRI-ej-Wlo"/>
+                <outlet property="thoughtsTextview" destination="gUK-yc-NEs" id="qXx-Yk-GGk"/>
+                <outlet property="view" destination="iN0-l3-epB" id="WvN-uP-ERy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gUK-yc-NEs">
+                    <rect key="frame" x="8" y="128" width="584" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="upq-gA-hjF"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Add thoughts...">
+                            <attributes>
+                                <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bK1-mi-J3Y">
+                    <rect key="frame" x="8" y="211" width="584" height="23"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Label">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Saj-JN-ZCn">
+                    <rect key="frame" x="443" y="80" width="149" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="149" id="5O7-QX-knf"/>
+                        <constraint firstAttribute="height" constant="40" id="80k-gv-cxd"/>
+                    </constraints>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="Add Scripture">
+                                <attributes>
+                                    <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                    <connections>
+                        <action selector="addScriptButtonAction:" destination="-1" eventType="touchUpInside" id="MaK-je-J7l"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bK1-mi-J3Y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="CTG-Ju-q3W"/>
+                <constraint firstItem="gUK-yc-NEs" firstAttribute="top" secondItem="Saj-JN-ZCn" secondAttribute="bottom" constant="8" id="ECu-GJ-xsf"/>
+                <constraint firstAttribute="trailing" secondItem="gUK-yc-NEs" secondAttribute="trailing" constant="8" id="QjD-EB-27V"/>
+                <constraint firstItem="bK1-mi-J3Y" firstAttribute="top" secondItem="gUK-yc-NEs" secondAttribute="bottom" constant="8" id="Vev-jx-EgI"/>
+                <constraint firstAttribute="trailing" secondItem="bK1-mi-J3Y" secondAttribute="trailing" constant="8" id="Yhx-Ty-RMR"/>
+                <constraint firstAttribute="trailing" secondItem="Saj-JN-ZCn" secondAttribute="trailing" constant="8" id="ehK-z2-wOo"/>
+                <constraint firstItem="Saj-JN-ZCn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="km2-Jx-7VX"/>
+                <constraint firstItem="gUK-yc-NEs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="qzs-H3-rDP"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
